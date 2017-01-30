@@ -1,4 +1,11 @@
 {
   "name": "boxcutter",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "util": "^0.10.3"
+  }
 }

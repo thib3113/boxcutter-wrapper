@@ -64,8 +64,8 @@ var BoxCutter = function(pOptions){
     this._filePath = path.join(os.tmpdir(), generateNewName(20)+"."+options.outputFormat);
 
     softOptions.push(this._filePath);    
-    soft = spawn(path.join(__dirname, 'tools', 'boxcutter', "boxcutter.exe"), softOptions, {
-      cwd : path.join(__dirname, 'tools', 'boxcutter')
+    var soft = spawn(path.join(__dirname, 'boxcutter', "boxcutter.exe"), softOptions, {
+      cwd : path.join(__dirname, 'boxcutter')
     });
 
     soft.stderr.on('data', function (data) {
@@ -80,7 +80,7 @@ var BoxCutter = function(pOptions){
         cb(this.errors, null);
       }
     }.bind(this));
-  }
+  };
 
   Object.defineProperty(this, "X1", {
     get: function(){

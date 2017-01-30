@@ -1,0 +1,3 @@
+[submodule "boxcutter"]
+	path = boxcutter
+	url = git@github.com:thib3113/boxcutter.git

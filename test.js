@@ -9,6 +9,8 @@ b = new boxcutter({
     fastMode:null, // fastmode don't support any options, is fullscreen and in BMP, but faster
     outputFormat:null
 });
+
+
 b.shot(function(err, file){
     try{
         console.log(b);

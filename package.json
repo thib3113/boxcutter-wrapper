@@ -1,6 +1,27 @@
 {
-  "name": "boxcutter",
-  "version": "0.0.1",
+  "name": "boxcutter-wrapper",
+  "description": "boxcutter is a windows screenshot tools",
+  "version": "1.0.0",
+  "keywords": [
+    "screenshot",
+    "windows"
+  ],
+  "maintainers": [
+    {
+      "name": "Thibaut severac",
+      "email": "thibaut.severac@ynov.com",
+      "web": "thib3113.fr"
+    }
+  ],
+  "bugs": {
+    "web": "https://github.com/thib3113/boxcutter-wrapper/issues"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git@github.com:thib3113/boxcutter-wrapper.git"
+    }
+  ],
   "dependencies": {
     "child_process": "^1.0.2",
     "fs": "0.0.1-security",

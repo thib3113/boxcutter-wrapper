@@ -6,7 +6,7 @@ This tools is a wrapper in node.JS
 
 ## How To Use ##
 
-    var boxcutter = require('boxcutter');
+    var boxcutter = require('boxcutter-wrapper');
 
 	boxcutter = new boxcutter({
     fullscreen : true, //take a fullscreen screenshot

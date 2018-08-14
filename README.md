@@ -1,5 +1,7 @@
 # boxcutter
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/thib3113/boxcutter-wrapper.svg)](https://greenkeeper.io/)
+
 BoxCutter is a windows screenshot tools write in C++ https://github.com/mdrasmus/boxcutter
 
 This tools is a wrapper in node.JS
